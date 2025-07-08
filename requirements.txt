@@ -1,4 +1,4 @@
 flask
 pyodbc
 gunicorn
-unixodbc-dev
+pytds
