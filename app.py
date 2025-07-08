@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, session, f
 from datetime import timedelta
 import pyodbc
 
-app = Flask(__name__)
+app= Flask(__name__)
 app.secret_key = 'your_secret_key'  # Use a secure, randomly generated key in production
 app.permanent_session_lifetime = timedelta(minutes=30)
 
